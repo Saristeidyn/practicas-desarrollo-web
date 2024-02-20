@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #f2f2f2;
+    padding: 10px; /* Added padding for better appearance */
+    text-align: center; /* Center the text */
+}
+
+section {
+    background-color: black;
+    color: white;
+    padding: 20px; /* Added padding for better appearance */
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    font-size: 18px; /* Adjusted font size for better appearance */
+    color: yellow;
+}
