@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body{
+            animation: colores 10s infinite;
+        }
+
+        @keyframes colores{
+            0% {
+                background-color: red;
+            }
+            25%{
+                background-color: aquamarine;
+            }
+            50%{
+                background-color: yellow;
+            }
+            100%{
+                background-color: blue;
+            }
+
+        }
+
+        .cuadroBlanco {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(213, 109, 109);
+            position: absolute;
+            left: 100px;
+            bottom: 100px;
+            animation: mover 2s infinite;
+           
+        }
+
+        @keyframes mover {
+            from {
+                top: 0px;
+            }
+            to{
+                top: 200px;
+            }
+
+        }
+
+        .cuadroBlanco2 {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(213, 109, 109);
+            position: absolute;
+            right: 550px;
+            bottom: 100px;
+            animation: mover 4s infinite;
+           
+        }
+
+        @keyframes mover {
+            from {
+                top: 100px;
+            }
+            to{
+                bottom: 0px;
+            }
+
+        }
+
+        .cuadroBlanco3 {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(213, 109, 109);
+            position: absolute;
+            right: 200px;
+            bottom: 200px;
+            animation: mover 2s infinite;
+           
+        }
+
+        @keyframes mover {
+            from {
+                top: 100px;
+            }
+            to{
+                bottom: 0px;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class  ="cuadroBlanco">Home</div>
+    <div class  ="cuadroBlanco2">Home</div>
+    <div class  ="cuadroBlanco3">Home</div>
+    
+</body>
+</html>
