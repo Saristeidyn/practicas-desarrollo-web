@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica8</title>
+    <style>
+        img{
+            width: 100%;
+            height: auto;
+        }
+
+        #rock{
+            filter: blur(5px) grayscale(100%) sepia(100%) hue-rotate(90deg);
+        }
+
+        .rock2{
+            filter: brightness(50%);
+        }
+
+        .rock3{
+            filter: contrast(50%);
+            filter: invert(1);
+            filter: opacity(0.20);
+            filter: saturate(0.50);
+        }
+
+        .rock4{
+            filter: drop-shadow(30px 10px 4px #4444dd);
+        }
+    </style>
+</head>
+<body>
+    <img id="rock" src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/12/09/17021185821957.jpg">
+    <h1>Mejor banda de Rock</h1>
+    <img src="img/rock2.jpg" alt="" class="rock2">
+    <img src="img/rock3.jpg" alt="pink floyd" class="rock3">
+    <img src="img/rock4.jpg" alt="AC/DC" class="rock4">
+</body>
+</html>
