@@ -1,4 +1,4 @@
-let formulario = document.getElementById("formularioAgregar");
+    let formulario = document.getElementById("formularioAgregar");
     let nombre = document.getElementById("nombre");
     let fecha = document.getElementById("fecha");
     let descripcion = document.getElementById("descripcion");
@@ -67,5 +67,5 @@ let formulario = document.getElementById("formularioAgregar");
  
     }
  
-    mostrarTareas();s
+    mostrarTareas();
  
