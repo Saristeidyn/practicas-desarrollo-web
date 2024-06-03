@@ -25,6 +25,7 @@ fetch(URLPRODUCTOS)
             `;
         });
     });
+    
 
     fetch(URLCATEGORIAS)
     .then(res=>res.json())
