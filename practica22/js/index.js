@@ -3,6 +3,7 @@ let listaCategorias = document.querySelector("#listaCategorias");
 let carrito = [];
 const URLPRODUCTOS = "https://fakestoreapi.com/products/"; // liga se llama end point
 const URLCATEGORIAS = "https://fakestoreapi.com/products/categories/"
+
  
 fetch(URLPRODUCTOS)
     .then(res=>res.json())
@@ -25,7 +26,7 @@ fetch(URLPRODUCTOS)
             `;
         });
     });
-    
+
 
     fetch(URLCATEGORIAS)
     .then(res=>res.json())
