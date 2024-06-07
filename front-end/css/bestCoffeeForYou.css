@@ -1,0 +1,54 @@
+.container {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 90%;
+    text-align: center;
+}
+.question {
+    background-color: #ffe6e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.question h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+.question p {
+    font-size: 0.875rem;
+    color: #666;
+    cursor: pointer;
+}
+.arrow {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.arrow::after {
+    content: '➔';
+    font-size: 2rem;
+    color: #ff9999;
+}
+
+
+
+.result-menu {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.result-tital {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+
+.result-paragraph {
+    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}

@@ -1,0 +1,47 @@
+.aboutCoffee-menu {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.aboutCoffee-tital {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 190px;
+}
+
+.aboutCoffee-paragraph {
+    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.aboutCoffee-img {
+    width: 200px;
+    height: auto;
+}
+
+.typesCoffee-tital {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 280px;
+}
+
+.typesCoffee-paragraph {
+    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.historyCoffee-tital {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 240px;
+}
+
+.historyCoffee-paragraph {
+    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+}
+

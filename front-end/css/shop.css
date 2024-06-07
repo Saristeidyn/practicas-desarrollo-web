@@ -1,0 +1,88 @@
+ul {
+    list-style-type: none;
+}
+
+.shop-menu {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.searchBars-shop {
+    margin-left: 30px;
+    margin-top: 120px;
+}
+
+.state {
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.cafeimg {
+    width: 50%;
+    height: auto;
+}
+
+.Find {
+    color: white;
+}
+
+.place {
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    border: 2px solid white; /* Adding border width and color */
+    border-radius: 10px; /* Smoothing the corners */
+    padding: 1px; /* Adding some padding for inner spacing */
+    background-color: #000000; /* Light grey background for better visibility */
+    display: flex; /* Using flexbox to align items */
+    align-items: center; /* Centering items vertically */
+    width: 30%; /* Box width will fit the content */
+    height: auto;
+}
+
+.place-2 {
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    border: 2px solid white; /* Adding border width and color */
+    border-radius: 10px; /* Smoothing the corners */
+    padding: 1px; /* Adding some padding for inner spacing */
+    background-color: #000000; /* Light grey background for better visibility */
+    display: flex; /* Using flexbox to align items */
+    align-items: center; /* Centering items vertically */
+    width: 80%; /* Box width will fit the content */
+    height: auto;
+}
+
+.cafePlace {
+    width: 170px; /* Keeping image width */
+    height: auto; /* Maintaining aspect ratio */
+} 
+
+.wordPlace {
+    margin-left: 10px; /* Adding space between image and text */
+    color: #ffffff; /* Setting text color for better contrast */
+}
+
+
+.shopNowWitLogo {
+    border: none solid white; /* Adding border width and color */
+    border-radius: none; /* Smoothing the corners */
+    padding: 10px; /* Adding some padding for inner spacing */
+    background-color: #000000; /* Light grey background for better visibility */
+    display: flex; /* Using flexbox to align items */
+    align-items: center; /* Centering items vertically */
+    width: 100%; /* Box width will fit the content */
+    justify-content: center;
+}
+
+.shopnowimg {
+    align-items: center;
+    width: 30%;
+    height: auto;
+}
+
+
+
