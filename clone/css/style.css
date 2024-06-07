@@ -1,0 +1,172 @@
+body {
+    font-family: "Balthazar", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(28, 27, 27), rgb(10, 10, 10), rgb(12, 12, 12), rgb(0, 0, 11)); /* Add a linear gradient background */
+    color: #fff; /* Set the text color to white */
+    padding: 10px; /* Add padding around the navigation bar */
+    display: flex;
+    flex-direction: column; /* Arrange children elements in a column */
+    align-items: center; /* Center-align the children elements */
+    box-shadow: 5px 10px 10px rgba(70, 67, 67, 0.35); /* horazontil, vertical, blur, color*/
+  }
+  
+  /* Top bar styling */
+  .top-bar {
+    display: flex; /* Use flexbox to arrange children elements horizontally */
+    width: 100%; /* Make the top bar take the full width of the navigation bar */
+    align-items: center; /* Center-align the items vertically */
+    margin-bottom: 10px; /* Add margin below the top bar */
+    margin-top: 0;
+  }
+  
+  /* Anchor tag (link) styling within the top bar */
+  .top-bar a {
+    flex: 0 0 auto; /* Prevent the images from stretching */
+    align-items: center;
+  }
+
+  .top-bar img {
+    width: 30px;
+    height: auto;
+    align-items: center;
+  }
+
+  .top-bar .coffee {
+    padding: 5px;
+    width: 50px;
+    height: auto;
+  }
+  
+  .search-bar {
+    flex: 0.25; /* Make the search bar take up the remaining space */
+    float: right;
+    margin: 0 10px; /* Add horizontal margin to the search bar */
+  }
+  
+  /* Input field styling within the search bar */
+  .search-bar input[type="text"] {
+    width: 100%; /* Make the input field take the full width of its container */
+    padding: 8px; /* Add padding inside the input field */
+    border: none; /* Remove the default border */
+    border-radius: 4px; /* Add rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+
+  .top-bar .cartimg {
+    padding: 5px;
+    width: 60px;
+    height: auto;
+    position: fixed; /* Position the element absolutely */
+    top: 3px; /* Align it with the top padding of the nav */
+    right: 10px; /* Align it with the right padding of the nav */
+    align-items: center;
+  }
+  
+  /* Menu styling */
+  .menu ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox to arrange list items horizontally */
+    justify-content: space-between; /* Distribute space between the list items */
+    float: left;
+    width: 100%; /* Make the menu take the full width of the navigation bar */
+  }
+  
+  /* List item styling within the menu */
+  .menu ul li {
+    margin-right: 50px; /* Add margin to the right of each list item */
+  }
+  
+  /* Remove the margin on the last list item */
+  .menu ul li:last-child {
+    margin-left: 10px;
+  }
+  
+  /* Anchor tag (link) styling within the menu */
+  .menu ul li a {
+    color: #fff; /* Set the text color to white */
+    text-decoration: none; /* Remove the underline from links */
+    padding: 8px 15px; /* Add padding inside the link */
+    border-radius: 4px; /* Add rounded corners */
+    transition: background-color 0.3s; /* Add a transition effect for background color */
+  }
+  
+  /* Hover effect for the menu links */
+  .menu ul li a:hover {
+    background-color: #555; /* Change background color on hover */
+  }
+
+
+  
+.aboutCoffee-menu {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.aboutCoffee-tital {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 190px;
+}
+
+.aboutCoffee-paragraph {
+    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.aboutCoffee-img {
+    width: 200px;
+    height: auto;
+}
+
+.typesCoffee-tital {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 280px;
+}
+
+.typesCoffee-paragraph {
+    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.historyCoffee-tital {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 240px;
+}
+
+.historyCoffee-paragraph {
+    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+}
+
+
+
+
+.contact {
+  border: none solid rgb(39, 36, 36); /* Adding border width and color */
+  padding: 10px; /* Adding some padding for inner spacing */
+  background-color: #000000; /* Light grey background for better visibility */
+  display: flex; /* Using flexbox to align items */
+  align-items: center; /* Centering items vertically */
+  width: 100%; /* Box width will fit the content */
+  justify-content: center;
+  box-shadow: 5px 10px 10px rgba(70, 67, 67, 0.35); 
+}
+
+
+.contact-info {
+  color: #ffffff;
+}
