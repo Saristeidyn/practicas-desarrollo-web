@@ -1,88 +1,194 @@
-ul {
-    list-style-type: none;
+
+
+
+.search-bar input {
+    padding: 5px;
+    width: 200px;
 }
 
-.shop-menu {
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.find {
     color: white;
 }
 
+.shop-menu-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000000;
+    flex-wrap: wrap;
+}
+
+.left-side, .right-side {
+    width: 48%;
+}
+
 .searchBars-shop {
-    margin-left: 30px;
-    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.searchBars-shop div {
+    margin: 10px 0;
 }
 
 .state {
     color: white;
-    margin-left: 50px;
-    margin-top: 50px;
 }
 
 .cafeimg {
-    width: 50%;
+    width: 100%;
+    max-width: 500px;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-.Find {
+.find-cafe {
+    text-align: center;
     color: white;
 }
 
-.place {
-    margin-top: 100px;
-    margin-left: 80px;
-    margin-bottom: 40px;
-    border: 2px solid white; /* Adding border width and color */
-    border-radius: 10px; /* Smoothing the corners */
-    padding: 1px; /* Adding some padding for inner spacing */
-    background-color: #000000; /* Light grey background for better visibility */
-    display: flex; /* Using flexbox to align items */
-    align-items: center; /* Centering items vertically */
-    width: 30%; /* Box width will fit the content */
-    height: auto;
+.place, .place-2 {
+    margin: 20px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.place-2 {
-    margin-top: 100px;
-    margin-left: 80px;
-    margin-bottom: 40px;
-    border: 2px solid white; /* Adding border width and color */
-    border-radius: 10px; /* Smoothing the corners */
-    padding: 1px; /* Adding some padding for inner spacing */
-    background-color: #000000; /* Light grey background for better visibility */
-    display: flex; /* Using flexbox to align items */
-    align-items: center; /* Centering items vertically */
-    width: 80%; /* Box width will fit the content */
+.place img, .place-2 img {
+    width: 100px;
     height: auto;
 }
-
-.cafePlace {
-    width: 170px; /* Keeping image width */
-    height: auto; /* Maintaining aspect ratio */
-} 
 
 .wordPlace {
-    margin-left: 10px; /* Adding space between image and text */
-    color: #ffffff; /* Setting text color for better contrast */
+    margin-left: 10px;
+    color: #fff;
+    flex: 1;
 }
 
-
 .shopNowWitLogo {
-    border: none solid white; /* Adding border width and color */
-    border-radius: none; /* Smoothing the corners */
-    padding: 10px; /* Adding some padding for inner spacing */
-    background-color: #000000; /* Light grey background for better visibility */
-    display: flex; /* Using flexbox to align items */
-    align-items: center; /* Centering items vertically */
-    width: 100%; /* Box width will fit the content */
-    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
 }
 
 .shopnowimg {
-    align-items: center;
-    width: 30%;
+    width: 100%;
+    max-width: 300px;
     height: auto;
 }
 
+.cont-img img {
+    width: 100%;
+    height: auto;
+}
 
+.contact-info {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
 
+@media (max-width: 768px) {}
+    .shop-menu-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #000000;
+        flex-wrap: wrap;
+    }
+    
+    .left-side, .right-side {
+        width: 48%;
+    }
+    
+    .place {
+        margin: 20px 0;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .place img {
+        width: 100px;
+        height: auto;
+    }
+    
+    .wordPlace {
+        margin-left: 10px;
+        color: #fff;
+        flex: 1;
+    }
+    
+    @media (max-width: 768px) {
+        .shop-menu-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .left-side, .right-side {
+            width: 100%;
+            margin: 10px 0;
+        }
+    
+        .place {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .place {
+            max-width: 100%;
+            margin: 20px auto;
+        }
+    }
+    
+
+@media (max-width: 480px) {
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        margin: 10px 0;
+    }
+
+    .shopnowimg {
+        width: 100%;
+    }
+}
