@@ -73,3 +73,10 @@ button {
     width: 70px;
     padding: 4px;
 }
+
+.button-link {
+    padding: 10px;
+    background-color: white;
+    width: 60px;
+    color: rgb(0, 0, 0);
+}
