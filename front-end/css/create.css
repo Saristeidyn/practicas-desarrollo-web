@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.form-container {
+    background-color: #333;
+    padding: 50px;
+    padding-left: 60px;
+    padding-right: 70px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #555;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMyIDM2QzI1LjM3NiAzNiAyMCA0MS4zNzYgMjAgNDhIMTJDMTIgMzkuMjczIDE5LjI3MyAzMiAzMiAzMlpNNDUuMzMzIDI4LjY2N0M0NS4zMzMgMzMuNDA5IDQxLjQwOSAzNyAzNiA0N0MzMS4zMzMgNDcgMjYuNjY3IDQ3IDQ1LjMzMyA0NyIgc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KPHBhdGggZD0iTTMyIDM2QzM4LjYyNCAzNiA0NCAzMC42MjQgNDQgMjRDMzggMjQuMDAwMyAzMiAzMCAzMiAzNk0yNC4wMzMgMjRDMjQuMDMzIDI5LjY3NCAyOC4zMjUgMzQgMzQgMzRDNDAuNjc1IDM0IDQ0Ljk2NyAyOS42NzQgNDQuOTY3IDI0QzQ0Ljk2NyAxOC4zMjUgNDAuNjc1IDE0IDM0IDE0QzI4LjMyNSAxNCAyNC4wMzMgMTguMzI1IDI0LjAzMyAyNE0yMCA0OEMyMCA1Ni4xOTggMjYuODAyIDYzIDM2IDYzQzQ1LjE5OCA2MyA1MiA1Ni4xOTggNTIgNDhIMzYiIiBzdHJva2U9IiNGQUEyQzYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff5f5;
+    color: #fff;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.cont {
+    width: 70px;
+    padding: 4px;
+}
